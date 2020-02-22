@@ -1,4 +1,4 @@
-package com.delicate.leetcode.easy;
+package com.delicate.leetcode.foroffers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
