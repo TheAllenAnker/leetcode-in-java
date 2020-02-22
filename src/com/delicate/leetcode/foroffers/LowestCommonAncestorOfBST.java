@@ -2,7 +2,7 @@ package com.delicate.leetcode.foroffers;
 
 import com.delicate.leetcode.bean.TreeNode;
 
-public class LowestCommonAncestor {
+public class LowestCommonAncestorOfBST {
     public static void main(String[] args) {
 
     }
