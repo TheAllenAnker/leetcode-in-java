@@ -20,7 +20,7 @@ public class ZigzagLevelOrder {
         TreeNode currNode;
         boolean fromLeft = true;
         while (!nodeDeque.isEmpty()) {
-            currNode = fromLeft ? nodeDeque.removeFirst() : nodeDeque.removeLast();
+            currNode = nodeDeque.removeLast();
             if (fromLeft) {
                 if (currNode.left != null) {
                     nextDeque.addLast(currNode.left);
